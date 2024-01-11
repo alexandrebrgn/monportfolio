@@ -15,6 +15,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
+import DownloadFileAction from '../components/DownloadFileAction.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -38,6 +39,12 @@ const projects = (await getCollection('work'))
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
 						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
 						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+					</div>
+					<div class="download-file">
+						<DownloadFileAction href="https://drive.google.com/drive/folders/1_R44W_xILnol2SYYvDDtBJqpoGzxhAMr">
+							Téléchargez mon CV
+							<Icon icon="rocket-launch" size="1.2em"/>
+						</DownloadFileAction>
 					</div>
 				</Hero>
 
