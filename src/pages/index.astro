@@ -10,12 +10,12 @@ import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
-import PortfolioPreview from '../components/PortfolioPreview.astro';
 
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 import DownloadFileAction from '../components/DownloadFileAction.astro';
+import WorkPreview from '../components/WorkPreview.astro';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -31,7 +31,7 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hey, je suis Alexandre Bourguignon"
+					title="Bonjour, je suis Alexandre Bourguignon"
 					tagline="Je suis étudiant dans le développement back-end/full-stack à Notre-Dame du Roc à La Roche-sur-Yon"
 					align="start"
 				>
@@ -43,7 +43,7 @@ const projects = (await getCollection('work'))
 					<div class="download-file">
 						<DownloadFileAction href="https://drive.google.com/drive/folders/1_R44W_xILnol2SYYvDDtBJqpoGzxhAMr">
 							Téléchargez mon CV
-							<Icon icon="rocket-launch" size="1.2em"/>
+							<Icon icon="download" size="1.2em"/>
 						</DownloadFileAction>
 					</div>
 				</Hero>
@@ -62,7 +62,7 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mes Projets</h3>
+					<h3>Mes projets professionels</h3>
 					<p>Regardez quelques projet que j'ai pu produire par le passé</p>
 				</header>
 
@@ -71,7 +71,7 @@ const projects = (await getCollection('work'))
 						{
 							projects.map((project) => (
 								<li>
-									<PortfolioPreview project={project} />
+									<WorkPreview project={project} />
 								</li>
 							))
 						}
@@ -80,7 +80,7 @@ const projects = (await getCollection('work'))
 
 				<div class="cta">
 					<CallToAction href="/work/">
-						Tout mes projets
+						Tous mes projets
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
