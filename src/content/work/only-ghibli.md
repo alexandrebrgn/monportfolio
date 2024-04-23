@@ -3,8 +3,9 @@ title: Only-Ghibli
 publishDate: 2022-03-04 18:00:00
 img: /assets/only-ghibli.png
 img_alt: An image of my only-ghibli website
+link: https://only-ghibli.vercel.app/
 description: |
-  Voici mon tout premier projet, un projet personnel inspiré d'une vidéo Youtube renseignée ci-dessous
+  Voici mon tout premier projet, un projet personnel inspiré d'une vidéo Youtube renseignée un peu-plus en dessous. C'est sans nul doute agrâce à ce projet, développé en 2021 qu'est née ma passion pour le développement web, je passais mes soirées entières à dédier mon temps à personnaliser le site en CSS et HTML pur.
 tags:
   - Design
   - HTML/CSS only

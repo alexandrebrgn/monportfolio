@@ -3,6 +3,7 @@ title: AuthJSReactFirebase
 publishDate: 2022-03-04 18:00:00
 img: /assets/AuthJsReactFirebase-login.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+link: #
 description: |
   AuthJSReactFirebase est un projet que j'ai réalisé en suivant une formation de 1h30 en ligne afin d'en apprendre plus sur React JS et Firebase
 tags:
