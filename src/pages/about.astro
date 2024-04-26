@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import DownloadFileAction from '../components/DownloadFileAction.astro';
+import Icon from '../components/Icon.astro';
 ---
 
 <BaseLayout title="À propos | Alexandre Bourguignon" description="About Jeanine White Lorem Ipsum">
@@ -45,12 +47,15 @@ import Hero from '../components/Hero.astro';
 					<p>2023 - Maitenant : BTS SIO SLAM à La Roche-sur-Yon(85)</p>
 				</div>
 			</section>
-			<!-- <section>
-				<h2 class="section-title">Talents</h2>
+			<section>
+				<h2 class="section-title">CV</h2>
 				<div class="content">
-					<p>Je sais pas</p>
+					<DownloadFileAction href="https://drive.google.com/drive/folders/1_R44W_xILnol2SYYvDDtBJqpoGzxhAMr">
+						Télécharger
+						<Icon icon="download" size="1.2em"/>
+					</DownloadFileAction>
 				</div>
-			</section> -->
+			</section>
 		</main>
 
 		<ContactCTA />
