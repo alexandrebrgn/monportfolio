@@ -1,5 +1,5 @@
 ---
-title: Only-Ghibli
+title: OnlyGhibli
 publishDate: 2022-03-04 18:00:00
 img: /assets/only-ghibli.png
 img_alt: An image of my only-ghibli website
