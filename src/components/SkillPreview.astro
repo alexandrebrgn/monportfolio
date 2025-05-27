@@ -12,7 +12,7 @@ const { data, slug } = Astro.props.project;
 	<span class="title">{data.title}</span>
 	{data.tags && (
 		<div class="badges">
-			{data.tags.map(tag => (
+			{data.tags.map((tag:string) => (
 				<span class="badge">{tag}</span>
 			))}
 		</div>
