@@ -1,14 +1,14 @@
 ---
 title: Selenium-Moderation
 publishDate: 2024-03-10 00:00:00
-img: /assets/Selenium.png
+img: /assets/selenium/Selenium.png
 img_alt: Image de la page accueil de l'application web Selenium
 description: |
   Interface web d'une application chat créée pour permettre aux utilisateurs d'un jeu fictif de pouvoir communiquer entre eux plus facilement.
 tags:
-  - VUE3
-  - JavaScript
-  - HTML/CSS
+  - Etudes
+  - "WEB : VUE3"
+  - "API : Laravel"
 ---
 
 ## Projet de situation professionnelle de 2ème année BTS SIO.

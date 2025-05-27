@@ -1,14 +1,14 @@
 ---
 title: ToolKeeper
 publishDate: 2024-01-20 00:00:00
-img: /assets/ToolKeeper-home.png
+img: /assets/toolkeeper/home.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   ToolKeeper est le nom de l'application que j'ai developpé de A à Z durant un stage de 6 semaine à effectuer pour ma deuxième année de BTS SIO.
 tags:
-  - VUE3
-  - Vue Router 
-  - Axios 
+  - Stage
+  - "WEB : VUE3"
+  - "API : Laravel"
 ---
 
 ## Projet de stage de 2ème année BTS SIO.

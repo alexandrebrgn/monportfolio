@@ -1,15 +1,14 @@
 ---
 title: DreamGarage
 publishDate: 2023-06-17 18:00:00
-img: /assets/DreamGarage.png
+img: /assets/dreamgarage/DreamGarage.png
 img_alt: Image du projet DreamGarage
 link: #
 description: |
   DreamGarage est un projet dans lequel je construis le garage de mes rêves. C'est un moyen de découvrir la technologie Three.js.
 tags:
+  - Perso
   - Three JS
-  - Javascript
-  - MarkDown
 ---
 
 ### 👨‍🎓 Projet personnel
