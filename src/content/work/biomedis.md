@@ -1,27 +1,62 @@
 ---
 title: Biomedis
 publishDate: 2025-02-10
-img: /assets/biomedis/report.png
+img: /assets/biomedis/preview.png
 img_alt: Screen of Biomedis Project
 description: Biomedis est une entreprise de relation medecin-praticien, qu ipropose des visites chez les praticien pour tester des médicaments. Cette application est composé d'une applications web et de son API.
 tags:
   - Etudes
-  - "WEB : AdonisJS"
-  - "API : Laravel"
+  - "WEB : React Vite"
+  - "API : AdonisJs"
 ---
 
-## API
+## Intro
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+Biomedis est une entreprise fictive sur laquelle pour laquelle j'ai créé une application lors de la dernière situation professionelle de BTS SIO 2ème anné.
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+C'est une entreprise de relation **médecin-praticien**, qui propose des **visites** chez les **praticiens** pour tester des médicaments et pouvoir recevoir des échantillons.
 
-## MCD
+Cette application est composée d'une API développée en **AdonisJs** et **TypeScript** et d'une application web développée en **React** + **Vite** et **TypeScript**
 
-<img src="/assets/biomedis/mcd.png" width="10000">
+Pour réaliser le front de l'application web, la techno **shadcnui** a été utilisée.
+### MCD
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Pour mieux comprendre l'application voici le **MCD** de la base de données de l'application.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<img src="/assets/biomedis/mcd.png" width="1000">
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+## Visuels de l'application
+
+Quelques screenshot de l'application afin d'avoir une idée
+
+#### Login
+
+<img src="/assets/biomedis/login.png" width="1000" style="border: solid darkgray 1px">
+
+La page d'**authentification** de l'application est son **point d'entrée** elle permet de s'**identifier** pour pouvoir accéder à l'application.
+
+Elle **vérifie** aussi la **présence** est la **validité** d'un **token** dans le **stockage local** afin de ne pas avoir à passer par cette étape.
+
+#### Praticiens
+
+<img src="/assets/biomedis/user.png" width="1000" style="border: solid darkgray 1px">
+
+La page **portefeuille de praticiens** permet de choir un des praticiens qui sont dans le même secteur que l'intervenant et de planifier un rendez-vous avec lui à l'avenir.
+
+Pour cela, on peut chercher le praticien voulu dans la barre de recherche et selectioner organiser une visite.
+
+<img src="/assets/biomedis/program.png" width="1000" style="border: solid darkgray 1px">
+
+#### Compte-rendu de visite
+
+<img src="/assets/biomedis/report.png" width="1000" style="border: solid darkgray 1px">
+
+La page **compte-rendus** permet de **vérifier** les **compte-rendu à rédiger** après avoir effectué la visite chez le praticien et de voir les **compte-rendus rédigés** par le passé.
+
+Lors de l'appui sur le bouton **rédiger** d'un des compte-rendus on se rend sur cette page.
+
+<img src="/assets/biomedis/makereport.png" width="1000" style="border: solid darkgray 1px">
+
+Dans ce **rapport** on peut indiquer les **observations** effectuées pendant la visite, les **problèmes** relevés par le **praticien**, son **évaluation** sur la **qualité des produits** proposés ainsi que sur la **confiance** que ce praticien manifeste envers **Biomedis**.
+
+En dernier il faut indiquer quels échantillons de **médicaments** a été fournis au client ainsi que leur **quantité**. 
