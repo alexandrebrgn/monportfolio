@@ -36,7 +36,7 @@ On peut remarquer à droite dans la navbar la connexion de l'utilisateur
 <img src="/assets/authjsfirebase/private.png" width="500">
 
 ##### La page d'accueil si l'utilisateur est connecté
-<img src="/assets/AuthJsReactFirebase-home.png" width="500"><img src="/assets/AuthJsReactFirebase-home-connected.png" width="500">
+<img src="/assets/authjsfirebase/home.png" width="500"><img src="/assets/authjsfirebase/home-connected.png" width="500">
 
 ### 💼 | Compétences du projet
 

@@ -1,6 +1,6 @@
 ---
 title: DreamGarage
-publishDate: 2023-06-17 18:00:00
+publishDate: 2023-06-17
 img: /assets/dreamgarage/DreamGarage.png
 img_alt: Image du projet DreamGarage
 link: #
